@@ -9,8 +9,13 @@ class BlocksComponent extends JComponents {
   protected void paintComponent(Graphics g) {
     Graphics2D g2 = (Graphics2D) g;    
     
+    g2.setColor(Color.CYAN);
     Rectangle block_t1 = new Rectangle(20, 0, 20, 80);
-    g2.draw(block_t1)
+    g2.draw(block_t1);
+    g2.fill(block_t1);
+    
+    
+      
       
   }
 }
