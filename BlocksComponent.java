@@ -1,4 +1,8 @@
 import javax.swing
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.swing.JComponent;
 class BlocksComponent extends JComponents {
   
   @Override
@@ -6,5 +10,7 @@ class BlocksComponent extends JComponents {
     Graphics2D g2 = (Graphics2D) g;    
     
     Rectangle block_t1 = new Rectangle(20, 0, 20, 80);
+    g2.draw(block_t1)
+      
   }
 }
