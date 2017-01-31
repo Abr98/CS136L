@@ -1,9 +1,9 @@
-import javax.swing
 import java.awt.Graphics;
+import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.swing.JComponent;
-class BlocksComponent extends JComponents {
+class BlocksComponent extends JComponent {
   
   @Override
   protected void paintComponent(Graphics g) {
