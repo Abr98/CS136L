@@ -1,4 +1,4 @@
-import javax.swing.Jframe;
+import javax.swing.JFrame;
 import java.awt.Color;
 
 public class BlocksViewer {
