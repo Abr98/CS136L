@@ -10,6 +10,8 @@ public class BlocksViewer {
     frame.setBackground(Color.GRAY);
     frame.getContentPane().add(new BlocksComponent());
     // Add that component to the JFrame
+    BlocksComponent component = new BlocksComponent();
+    frame.add(component);
     // Make the frame visible so things render
     frame.setVisible(true);
   }
