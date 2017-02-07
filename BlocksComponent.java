@@ -40,7 +40,7 @@ public class BlocksComponent extends JComponent {
     Rectangle block_T = new Rectangle(0, 0, 20, 60);
     g2.fill(block_T);
     
-    /*
+    /* don't think these are need
     Color cyan = new Color(CYAN);
     Color red = new Color(RED);
     Color yellow = new Color(YELLOW);
@@ -49,10 +49,6 @@ public class BlocksComponent extends JComponent {
     Color blue = new Color(BLUE);
     Color orange = new Color(orange);*/
     
-    g2.translate(20, 40);
-    g2.setPaint(cyan);
-    g2.fill(block_t1);
-      
-      
+   
   }
 }
