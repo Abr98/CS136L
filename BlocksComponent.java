@@ -13,12 +13,21 @@ public class BlocksComponent extends JComponent {
     
     // draw 7 different rectangles
     g2.setColor(Color.CYAN);
-    Rectangle block_I = new Rectangle(0, 26, 20, 80);
+    Rectangle block_I = new Rectangle(0, 26*20, 80, 20);
     g2.fill(block_I);
     
     g2.setColor(Color.BLUE);
-    Rectangle block_J = new Rectangle(0, 0, 20, 40);
+    Rectangle block_J = new Rectangle(0, 0, 20, 20);
     g2.fill(block_J);
+    block_J.translate(20,0);
+    g2.fill(block_J);
+    block_J.translate(40,0);
+    g2.fill(block_J);
+    block_J.translate(60,0);
+    g2.fill(block_J);
+    block_J.translate(80,20);
+    g2.fill(block_J);
+    
     
     g2.setColor(Color.ORANGE);
     Rectangle block_L = new Rectangle(0, 0, 20, 60);
