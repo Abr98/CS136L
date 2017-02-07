@@ -25,7 +25,7 @@ public class BlocksComponent extends JComponent {
     g2.fill(block_L);
     
     g2.setColor(Color.YELLOW);
-    Rectangle block_O = new Rectangle(0, 0, 20, 60);
+    Rectangle block_O = new Rectangle(0, 16, 40, 40);
     g2.fill(block_O);
     
     g2.setColor(Color.GREEN);
