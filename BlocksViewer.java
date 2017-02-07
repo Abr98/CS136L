@@ -8,9 +8,9 @@ public class BlocksViewer {
     frame.setTitle("Tretis Snapshot");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setBackground(Color.GRAY);
-    // Create a new component that knows how to draw blocks
-    BlocksComponent component = new BlocksComponent();
+    frame.getContentPane().add(new BlocksComponent());
     // Add that component to the JFrame
     // Make the frame visible so things render
+    frame.setVisible(true);
   }
 }
