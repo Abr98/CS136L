@@ -13,7 +13,7 @@ public class BlocksComponent extends JComponent {
     
     // draw 7 different rectangles
     g2.setColor(Color.CYAN);
-    Rectangle block_I = new Rectangle(0, 0, 20, 80);
+    Rectangle block_I = new Rectangle(0, 26, 20, 80);
     g2.fill(block_I);
     
     g2.setColor(Color.BLUE);
@@ -40,7 +40,7 @@ public class BlocksComponent extends JComponent {
     Rectangle block_T = new Rectangle(0, 0, 20, 60);
     g2.fill(block_T);
     
-    /* don't think these are need
+    /* don't think these are needed
     Color cyan = new Color(CYAN);
     Color red = new Color(RED);
     Color yellow = new Color(YELLOW);
